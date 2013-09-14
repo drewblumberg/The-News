@@ -1,0 +1,123 @@
+/*style.css*/
+
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); <!-- serif -->
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700); <!-- sans serif -->
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Rokkitt', serif;
+}
+
+div#container {
+  margin: auto;
+  background-color: #555;
+  width: 960px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+
+}
+
+header {
+  height: 100px;
+  background-color: #ccc;
+  padding: 15px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  height: 40px;
+  background-color: #222;
+  padding: 3px;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #777;
+}
+
+nav ul li a {
+  background-color: #222;
+  color: #fff;
+}
+
+.noline {
+  border: none;
+}
+
+#main {
+  width: 720px;
+  height: auto;
+  background-color: blue;
+  float: left;
+}
+
+#videobox {
+  background-color: #111;
+  height: 394px;
+  width: 700px;
+  margin: auto;
+}
+
+#videobox h1 {
+  color: white;
+}
+
+aside {
+  width: 240px;
+  height: auto;
+  background-color: red;
+  float: left;
+}
+
+footer {
+  height: auto;
+  padding: 5px;
+  background-color: green;
+  clear: both;
+}
+
