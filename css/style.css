@@ -1,7 +1,7 @@
 /*style.css*/
 
-@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); <!-- serif -->
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700); <!-- sans serif -->
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 
 html {
   font-size: 100%;
@@ -64,14 +64,14 @@ header h1 {
 }
 
 nav {
-  height: 40px;
-  background-color: #222;
-  padding: 3px;
+  background-color: #000;
   text-align: center;
+  padding: 5px auto;
 }
 
 nav ul {
-  padding: 0;
+  padding: 5px;
+  margin: auto;
 }
 
 nav ul li {
@@ -81,7 +81,6 @@ nav ul li {
 }
 
 nav ul li a {
-  background-color: #222;
   color: #fff;
 }
 
@@ -107,11 +106,33 @@ nav ul li a {
   color: white;
 }
 
+#main article {
+  background-color: #333;
+  width: 700px;
+  height: 200px;
+  margin: auto;
+}
+
 aside {
   width: 240px;
   height: auto;
   background-color: red;
   float: left;
+}
+
+aside > h1 {
+  text-align: center;
+  background-color: #444;
+}
+
+aside article {
+  background-color: yellow;
+  margin: auto;
+  width: 220px;
+}
+
+aside article p a {
+  font-size: small;
 }
 
 footer {

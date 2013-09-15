@@ -1,4 +1,4 @@
 The-News
 ========
 
-The Carrot News Website
+The Daily Carrot News Website
