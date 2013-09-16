@@ -2,6 +2,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=UnifrakturMaguntia);
 
 html {
   font-size: 100%;
@@ -9,7 +10,7 @@ html {
 
 body {
   font-family: 'Rokkitt', serif;
-  background-color: #f93;
+  background-color: #FFF4EA;
 }
 
 h1 {
@@ -32,51 +33,88 @@ img {
 }
 
 div#container {
-  background-color: #555;
   margin: auto;
   width: 960px;
 }
 
 header {
-  background-color: #ccc;
+  background-color: #FFF4EA;
   background-image: url(../images/carrot_small1.png), url(../images/carrot_small2.png);
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
   height: 100px;
+  margin-top: 20px;
 }
 
 header h1 {
   font-size: 4rem;
   text-align: center;
+  font-family: 'UnifrakturMaguntia', cursive;
 }
 
-nav {
-  background-color: #000;
-  padding: 5px auto;
-  text-align: center;
+.color-bar {
+  background: -moz-linear-gradient(top, #666666, #333333);
+  border-bottom: 1px solid black;
+  font-family: 'Monda', sans-serif;
+  margin-top: -16px;
 }
 
 nav ul {
-  margin: auto;
-  padding: 5px;
+  list-style: none;
+  color: white;
+  margin: 0;
+}
+
+nav ul a {
+  color: white;
+}
+
+nav ul a:hover {
+  text-decoration: none;
 }
 
 nav ul li {
-  border-right: 1px solid #777;
-  display: inline-block;
-  padding: 0 10px 0 10px;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  color:white;
 }
 
-nav ul li a {
-  color: #fff;
+nav ul:first-child {
+  margin-left: -40px;
 }
 
-.noline {
-  border: none;
+nav ul li:hover {
+  background: -moz-linear-gradient(top, #CC0000, #CC3333);
+  cursor: pointer;
 }
+
+.search {
+  float: left;
+  margin-top: 5px;
+}
+
+.search input {
+  margin-top: 1px;
+  margin-left: 155px;
+}
+
+.btn {
+  float: right;
+  margin-left: 5px;
+  padding: 10px;
+  background-color: #CC0000;
+  color: white;
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+/*Main Page*/
 
 #main {
-  background-color: blue;
   float: left;
   height: auto;
   padding: 10px;
@@ -88,18 +126,17 @@ nav ul li a {
 }
 
 #videobox {
-  background-color: orange;
   margin: auto;
   width: 580px;
 }
 
 #videobox h1 {
-  background-color: #444;
+  background: -moz-linear-gradient(top, #666666, #333333);
   padding-left: 10px;
+  color: white;
 }
 
 #main article {
-  background-color: yellow;
   margin: auto;
   padding: 5px;
   width: 570px;
@@ -116,7 +153,6 @@ nav ul li a {
 }
 
 aside {
-  background-color: red;
   float: left;
   height: auto;
   padding: 10px;
@@ -124,17 +160,18 @@ aside {
 }
 
 aside > h1 {
-  background-color: #444;
+  background: -moz-linear-gradient(top, #666666, #333333);
   text-align: center;
+  color: white;
   width: 340px;
 }
 
 aside article {
-  background-color: yellow;
   height: 200px;
   overflow: auto;
   padding: 10px 0;
   width: 340px;
+  border-top: 2px solid #666666;
 }
 
 aside article h1 {
@@ -157,7 +194,6 @@ aside article p a {
 }
 
 footer {
-  background-color: green;
   clear: both;
   padding: 10px;
   text-align: center;
