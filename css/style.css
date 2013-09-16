@@ -172,6 +172,11 @@ aside article {
   padding: 10px 0;
   width: 340px;
   border-top: 2px solid #666666;
+  margin-bottom: 5px;
+}
+
+aside article:last-child {
+  border-bottom: 2px solid #666666;
 }
 
 aside article h1 {
